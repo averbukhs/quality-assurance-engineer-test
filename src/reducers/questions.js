@@ -1,4 +1,11 @@
-const questions = (state = [], action) => {
+const initialData = [
+    {
+        question: 'How to add a question?',
+        answer: 'Just use the form below!'
+    }
+];
+
+const questions = (state = initialData, action) => {
     switch (action.type) {
         case 'ADD_QUESTION':
             return [
