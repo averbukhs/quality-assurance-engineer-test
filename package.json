@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",
+    "classnames": "^2.2.6",
     "json-loader": "^0.5.7",
     "lodash": "^3.10.1",
     "prop-types": "^15.6.0",
@@ -36,6 +37,7 @@
     "react-redux": "4.3.0",
     "react-router": "^2.0.1",
     "redux": "^3.0.4",
+    "redux-form": "^7.4.2",
     "redux-thunk": "^2.2.0"
   }
 }
