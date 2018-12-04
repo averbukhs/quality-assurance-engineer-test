@@ -5,39 +5,31 @@ import { addQuestion } from '../actions';
 
 class QuestionMaker extends Component {
 
-    constructor(props) {
-        super(props);
+    state = {
+        question: '',
+        answer: ''
+    };
 
-        this.state = {
-            question: '',
-            answer: ''
-        };
-
-        this.handleQuestionChange = this.handleQuestionChange.bind(this);
-        this.handleAnswerChange = this.handleAnswerChange.bind(this);
-        this.handleSubmitQuestion = this.handleSubmitQuestion.bind(this);
-    }
-
-    handleQuestionChange(event) {
+    handleQuestionChange = (event) => {
         this.setState({
             question: event.target.value
         });
-    }
+    };
 
-    handleAnswerChange(event) {
+    handleAnswerChange = (event) => {
         this.setState({
             answer: event.target.value
         });
-    }
+    };
 
-    handleSubmitQuestion(event) {
+    handleSubmitQuestion = (event) => {
         event.preventDefault();
         this.props.dispatch(addQuestion(this.state.question, this.state.answer));
         this.setState({
             question: '',
             answer: ''
         });
-    }
+    };
 
     render() {
         return (

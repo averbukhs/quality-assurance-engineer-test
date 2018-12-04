@@ -88,3 +88,37 @@
     top: -8px;
     left: 8px;
 }
+
+.form-control-stu {
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: none;
+    padding: 10px;
+    height: auto;
+    background-color: white;
+    background-image: none;
+    transition: border-color 150ms;
+}
+
+.form-control-stu:hover:not(:focus):not(:focus-within):not(.form-control-stu--error) {
+     border-color: #aaa;
+ }
+
+.form-control-stu:focus, .form-control-stu:focus-within {
+      border-color: deepskyblue;
+      outline: none;
+  }
+
+.form-control-stu ::placeholder, .form-control-stu::placeholder {
+   color: gray;
+}
+
+.form-error-stu {
+    color: red;
+}
+
+.textarea-stu {
+    resize: vertical;
+}
