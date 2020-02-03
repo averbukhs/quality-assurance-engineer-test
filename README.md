@@ -10,7 +10,7 @@ your solution will do.
 
 
 ### Automated Testing Assignment
-Clone this repo and run:
+You can fork (and then clone your own version) this repo and run:
 
 ```
 $ npm install
