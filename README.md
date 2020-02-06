@@ -21,7 +21,7 @@ You now have a working frontend app that you will write some kind of automated u
 The language of framework does not matter, but we prefer JS, PHP or Python.
 
 ### Run Selenium Tests
-Please, refer to the [documentation](./selenium.test/README.md) for more information on environment setup.
+Please, refer to the [documentation](./selenium-test/README.md) for more information on environment setup.
 NOTE: Before running tests, make sure the application is up and running. 
 NOTE: Test can be run in headless mode, please review [configuration](./selenium/config.yaml) file.
 ```
