@@ -19,3 +19,12 @@ $ npm start
 
 You now have a working frontend app that you will write some kind of automated user acceptence test. 
 The language of framework does not matter, but we prefer JS, PHP or Python.
+
+### Run Selenium Tests
+Please, refer to the [documentation](./selenium.test/README.md) for more information on environment setup.
+NOTE: Before running tests, make sure the application is up and running. 
+NOTE: Test can be run in headless mode, please review [configuration](./selenium/config.yaml) file.
+```
+python3 ./selenium-test/test_home_page.py
+```
+
